@@ -1,0 +1,16 @@
+let wh = ["Вчера", "Завтра", "На прошлой неделе", "В прошлом году", "В прошлом месяце"];
+let we = ["в средеземье", "в речке", "в чашке", "на холме", "возле башни"];
+let wi = ["странный", "пугающтй", "зеленый", "веселый", "пятнистый"];
+let wo = ["змей", "хоббит", "человек", "конь", "петикантроп"];
+let wa = ["сьел печенье", "украл пирожок", "уронил вазу", "потерял ключи", "укусил стену"];
+let wd = ["Печеньки умерли", "Конь убежал", "Глаз саурона проснулся", "Пошел дождь", "Пришлось лечиться"];
+let wp = ["Какой ужас", "Ничео такого", "За Середземье", "Неожиданно", "Вот блин"];
+let rand1 = Math.floor(Math.random() * wh.length);
+let rand2 = Math.floor(Math.random() * we.length);
+let rand3 = Math.floor(Math.random() * wi.length);
+let rand4 = Math.floor(Math.random() * wo.length);
+let rand5 = Math.floor(Math.random() * wa.length);
+let rand6 = Math.floor(Math.random() * wa.length);
+let rand7 = Math.floor(Math.random() * wa.length);
+let phrase = wh[rand1] +" "+  we[rand2]+" " + wi[rand3] +" "+wo[rand4]+" " +wa[rand5]+"." +wd[rand6]+"."+"Люди сказали:"+wp[rand7] ;
+document.write(phrase);
